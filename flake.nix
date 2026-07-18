@@ -6,6 +6,6 @@
   };
 
   outputs = inputs: {
-    homeManagerModules.default = import ./.;
+    homeManagerModules.default = import ./. inputs;
   };
 }
