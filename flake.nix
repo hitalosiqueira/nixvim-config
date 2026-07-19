@@ -6,6 +6,9 @@
   };
 
   outputs = inputs: {
+    nixosModules = {
+      nixvim = import ./.;
+    };
     homeManagerModules.default = import ./. inputs;
   };
 }
