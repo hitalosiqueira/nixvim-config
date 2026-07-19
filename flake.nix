@@ -7,7 +7,7 @@
 
   outputs = inputs: {
     nixosModules = {
-      nixvim = import ./.;
+      nixvim = import ./. inputs;
     };
     homeManagerModules.default = import ./. inputs;
   };
