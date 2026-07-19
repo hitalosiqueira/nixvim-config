@@ -1,7 +1,7 @@
 {
   description = "My Nixvim config";
 
-  nputs = {
+  inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
 
     nixvim = {
