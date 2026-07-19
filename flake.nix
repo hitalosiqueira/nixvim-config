@@ -14,6 +14,6 @@
     nixosModules = {
       nixvim = import ./. inputs;
     };
-    homeManagerModules.default = import ./. inputs;
+    homeManagerModules.default = import ./default.nix;
   };
 }
